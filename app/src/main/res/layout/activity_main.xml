@@ -33,13 +33,14 @@
                 android:layout_height="match_parent">
 
                 <ToggleButton
-                    android:id="@+id/toggleButton2"
+                    android:id="@+id/id_test"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:checked="false"
                     android:text="ToggleButton"
                     android:textOff="Eteint"
-                    android:textOn="Allumé" />
+                    android:textOn="Allumé"
+                    android:onClick="mafonction"/>
 
                 <TextView
                     android:id="@+id/textView3"
